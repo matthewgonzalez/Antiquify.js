@@ -1,0 +1,108 @@
+body {
+  padding: 50px;
+  font-family: 'Libre Baskerville', serif;
+  background: #ccc;
+  -webkit-font-smoothing: antialiased; }
+  @media screen and (max-width: 1250px) {
+    body {
+      padding: 50px 100px; } }
+
+.buttons {
+  position: fixed;
+  top: 0px;
+  right: 20px;
+  z-index: 999;
+  width: 200px; }
+  .buttons a {
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    z-index: 999;
+    clear: both;
+    float: left;
+    border: 0px;
+    text-align: center; }
+    .buttons a:hover {
+      text-decoration: underline;
+      border: 0px; }
+  .buttons .download {
+    background-color: orange; }
+    .buttons .download span {
+      display: block;
+      font-size: .55em;
+      text-decoration: none; }
+
+h1.title {
+  text-align: center;
+  margin: 0px;
+  font-style: italic;
+  font-size: 32px;
+  border-top: .05em solid #000;
+  border-bottom: .07em solid #000;
+  margin: .25em auto 1.5em;
+  padding: 20px;
+  width: 50%; }
+
+.text {
+  position: relative;
+  float: left;
+  background: #fafaef url("http://farm8.staticflickr.com/7253/7549433998_e19a2dcf0c_h.jpg") 0px 0px repeat;
+  font-size: 1em;
+  display: block;
+  width: 40%;
+  text-align: justify;
+  margin: 0px 0px 40px 0px;
+  padding: 5%;
+  -webkit-box-shadow: 5px 10px 30px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 10px 30px 0px rgba(0, 0, 0, 0.3), inset 0px 1px 1px 0px rgba(255, 255, 255, 0.5), inset -1px -1px 1px 0px rgba(0, 0, 0, 0.2);
+  min-height: 600px; }
+  @media screen and (max-width: 1250px) {
+    .text {
+      float: none;
+      clear: both;
+      margin: 0px auto 40px;
+      width: auto;
+      padding: 10%; } }
+
+.text p {
+  color: #111;
+  text-indent: 2em;
+  line-height: 1.5em;
+  margin: 0px; }
+
+.text p.page-number {
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 30px;
+  left: 0px;
+  font-size: 100%;
+  text-indent: 0px; }
+
+a {
+  color: #000;
+  border-bottom: 1px dashed #000;
+  text-decoration: none;
+  font-weight: bold; }
+  a:hover {
+    border-bottom: 1px solid #000; }
+
+div.quote {
+  position: relative;
+  padding: 50px 50px; }
+
+div.quote p {
+  position: relative;
+  width: 100%;
+  font-style: italic; }
+
+div.quote .author {
+  position: absolute;
+  bottom: -2.5em;
+  right: 0px;
+  font-size: .8em;
+  font-style: normal; }
