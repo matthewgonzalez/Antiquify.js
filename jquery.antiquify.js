@@ -108,7 +108,7 @@
         $(this).css({textShadow: '-.08em 0em 0em rgba('+rgb+', 1), 0em -0.07em 0em rgba('+rgb+', 1)'});
         
         if( $("head #antiquify-styles").length <=0) {
-				   $("head").append("<style type='text/css' id='antiquify-styles'> .antiquify-shadow { text-shadow: .06em 0em 0em rgba("+rgb+", 1), 0em .06em 0em rgba("+rgb+", 1), -0.06em 0em 0em rgba("+rgb+",1), 0em -0.06em 0em rgba("+rgb+", 1) } .antiquify-mask { -webkit-mask-image:" +mask+ "; -o-mask-image:" +mask+ "; -moz-mask-image:" +mask+ "; mask-image:" +mask+ "; } </style>");
+				   $("head").append("<style type='text/css' id='antiquify-styles'> .antiquify-shadow { text-shadow: .07em 0em 0em rgba("+rgb+", 1), 0em .06em 0em rgba("+rgb+", 1), -0.07em 0em 0em rgba("+rgb+",1), 0em -0.06em 0em rgba("+rgb+", 1) } .antiquify-mask { -webkit-mask-image:" +mask+ "; -o-mask-image:" +mask+ "; -moz-mask-image:" +mask+ "; mask-image:" +mask+ "; } </style>");
         }
         
 				injector($(this), rgb);

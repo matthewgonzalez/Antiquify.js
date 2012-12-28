@@ -7,6 +7,8 @@ body {
     body {
       padding: 50px 100px; } }
 
+a { cursor: pointer; }
+
 .buttons {
   position: fixed;
   top: 0px;
