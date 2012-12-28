@@ -36,7 +36,7 @@
           }
           inject += item;
         } else if (number == 1 && sticky == 0 && isElement == 0) {
-				  inject += '<span class="howdy '+randomClasses()+'" style="'+randomStyles(rgb)+'">'+item;
+				  inject += '<span class="antiquify-span '+randomClasses()+'" style="'+randomStyles(rgb)+'">'+item;
           sticky++;
         }  else if (sticky >= 1 && sticky < stopSticky) {
           inject += item;
